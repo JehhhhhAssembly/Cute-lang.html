@@ -1,0 +1,12 @@
+/* Reset margins and hide scrollbars for a full-screen experience */
+body { 
+    margin: 0; 
+    overflow: hidden; 
+    background-color: #1a1a1a; /* Dark sleek background */
+}
+
+canvas { 
+    display: block; 
+    width: 100vw;
+    height: 100vh;
+}
